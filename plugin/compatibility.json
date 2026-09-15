@@ -297,6 +297,60 @@
         "gateway/session_state.py": "2902e24808a159d00a378d23c85969c666d5789c2781c8659e6b6ddcaebc5f11",
         "gateway/turn_lease.py": "f4a081318cc809d02d8f4a0a6e00efff1ba1f4c4f54838ba537b645fc4942b70"
       }
+    },
+    {
+      "core_commit": "0.21.3-local",
+      "hermes_version": "0.21.3",
+      "files": {
+        "gateway/run.py": "ab619aa0dc193c6d8741f3cabc9a028c2fb7459c22262c69597b0e872091bde5",
+        "gateway/platforms/base.py": "54a6aaabac9d9800224b844b9ad12f8d3cf073a994e2b8e0d0a7f1ca80bc86ee",
+        "plugins/platforms/telegram/adapter.py": "ce4b5ca688bb94691012b6a62b1767b349c94851e9ec9bcd7aa56d32fe3e3506",
+        "plugins/platforms/telegram/telegram_ids.py": "618a29923ccc05cc49eee7cffdded632d11cecc4484ccbad5c96cc9d0e429459",
+        "hermes_cli/plugins.py": "1b5aae9a34e97c9922b5ab7e76c4bd3562a6ab715a983bf9c4dfe6031c457942",
+        "hermes_cli/middleware.py": "62b1c1b6aa2e736c852ffd4dc551b9325ae4d41debafb6ece1169739fb6ce228",
+        "hermes_cli/lifecycle.py": "b421f36d8e68c79da1367da571493892beee763f27d44ea83944233bfd91af75",
+        "tools/async_delegation.py": "5860dd6914248cd5500953ed828867fef0e4f23f71d0af3c15adeff03bd08b11",
+        "tools/delegate_tool_registry.py": "ca0cf0fc762538a93c40379bcf7a558846992548815b4f91fe3ad834fdb80854",
+        "agent/conversation_loop.py": "2086d4d084a7cba728a5862f2f27d172860908af967e2b83a43d22fe757548c2",
+        "agent/codex_responses_adapter.py": "8ac9cc712757f019ec491adeeae15f90cdd7e9631a1371c197c184f5707e98a7",
+        "agent/codex_runtime.py": "c9867df36eedc3fafd40e5ce5a88a3ef31b959f2304758e42840bdb5771ec742",
+        "gateway/run_turn.py": "56e6fb62b60e954ef0d258c7c44ed3fca99c4aa6d2c502d8f80a1c516569f537",
+        "gateway/run_turn_runner.py": "b87d6072f2cc13634398d380eb0857d550f75502a8ace137138cf16e00d9a763",
+        "agent/conversation_compression.py": "59b14bf49f6e4d8a2b3b89888173ac97f0612d82caef41e6fa7a1fc6f915d5bb",
+        "gateway/run_busy.py": "bfc6fb9e407a82c58eed1100b5bb772a72f877e98a281f5356d7e7436304b306",
+        "gateway/run_notifications.py": "31a6d7841ad250c57aed661ce9f1a76ee9b35ab7d1e6cfd64015c16209d240c6",
+        "gateway/slash_commands.py": "25a30628ae426523941f6d2334231f03b20c0f0204907c3283b559bfd00d6350",
+        "agent/redact.py": "9e75c6502ab9409e0af825b174375c2e9886ebb0de4f30871baa45ecb6e227ae",
+        "gateway/run_agent_cache.py": "451f23853b11468a22988faa4a31434ae679def99dc394ba5a26002bce0df666",
+        "gateway/run_inbound.py": "9f82c79b913e5dd14807b31f04b2a3449b82dc3cdbc7c7779c935bff02c2cc84",
+        "gateway/session_state.py": "e5cfd3b9645114505916ed438db59e6934e64214780f9f5ba748f92c25f094b5",
+        "gateway/turn_lease.py": "978e23132a749417863b18ae79d618009db33bd072ac7c2dc78296c3ba5415d5"
+      },
+      "python_ast_v1": {
+        "gateway/run.py": "c27c2f4263933361c0d3936068004ede132205c60c35c5e1997d1dc302fa89c4",
+        "gateway/platforms/base.py": "192332670e7bc3fac74a4e47fc7ecf9ed22ea124989b1932a9d671657bfcdbab",
+        "plugins/platforms/telegram/adapter.py": "0f40a63c57c950d96dba54cd6bb845b7881399c4bbcb61e438d58220eb1d52ef",
+        "plugins/platforms/telegram/telegram_ids.py": "892a92bb01d73147fb73105f52b8e610d9acb8abfd78e631c9f5fed12aa0293e",
+        "hermes_cli/plugins.py": "b761f1c3faedb6f05ee7f0135f7caef7cfce6d8cca12d51854224fca2da88057",
+        "hermes_cli/middleware.py": "f46e6a9c8d90f2cfa3f277bfc871cc98a0e76576b4ea0a3ef6bbeb9535dd2ed4",
+        "hermes_cli/lifecycle.py": "307ea4a0279d5d612aee6e8932134fec90e7e63ff0d63077b107a8487d746864",
+        "tools/async_delegation.py": "1ccf32efe5bda180c35a7e3e400ef005463ac8778f1f65e87084619e4d2fb771",
+        "tools/delegate_tool_registry.py": "1dddc8eed750149cbaf1be74250810df880c9dae6dc5b1194ea401116ef05a29",
+        "agent/conversation_loop.py": "c7c2b6c032895ef775971d5ed1c55723199e1eed73b0f89b8944705f535dc935",
+        "agent/codex_responses_adapter.py": "8a35e72baeff0149eee3bcdf9af1f853d132bc176691b3c6c1592e9281b9372d",
+        "agent/codex_runtime.py": "367a7d27cf7b79aea9e0382201737022a1312d4fbadf73c55174f4b1b691e7fa",
+        "gateway/run_turn.py": "96ddba89dca8b2264a44a58c3eeaac81a7fa3fb8a8ca30f07d88dadbeac89a45",
+        "gateway/run_turn_runner.py": "a2f77e11a46a4cabcbc329fd65c9724ea09bfeff2f06fffafd5992b1f0947b01",
+        "agent/conversation_compression.py": "9ef44f2ba5c9d3ea7ae62344c41140f037caa79ed45e746f68c1733abafc8130",
+        "gateway/run_busy.py": "3ac1f9d1491ff1b68792ce88b3b72393c964d372727ae787d2861ed472519fa4",
+        "gateway/run_notifications.py": "daf6f21953a3eed954c74f19a9ff12a9145ed3e517b00ac7c7d0006ea93eff68",
+        "gateway/slash_commands.py": "cdcc9ec416d20aaa54e653a31dd6cf33f2e190cb8cc84da7a7efc7dc45d7e742",
+        "agent/redact.py": "96aece27086e85ec8b4f4d26c2aee51ca6d1ece41625ecfc13113562cf5472f2",
+        "gateway/run_agent_cache.py": "2ccbeb6226d6d8db6e122f02d9d4bfa0c9927c590829f36eb8b1d3a7cc1bf7ca",
+        "gateway/run_inbound.py": "ab1fa415e1f2d197cc7997e2d9d510e56de2e560e407db53d0c57f0b2d6ef8dd",
+        "gateway/session_state.py": "6672b8a3cdbe86a7bab0d9f0050f2185c9bc24813cacc8c95c9f72f3508d9f30",
+        "gateway/turn_lease.py": "588ed04817b082f2b0bdcfd4d1d2232ebb50d40ce682281a84eb8ac0bcb96a84"
+      }
     }
   ]
 }
