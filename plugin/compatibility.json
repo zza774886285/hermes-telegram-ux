@@ -299,7 +299,7 @@
       }
     },
     {
-      "core_commit": "ab619aa0dc193c6d8741f3cabc9a028c2fb7459c22262c69597b0e872091bde5",
+      "core_commit": "ab619aa0dc193c6d8741f3cabc9a028c2fb7459c",
       "hermes_version": "0.21.3",
       "files": {
         "gateway/run.py": "ab619aa0dc193c6d8741f3cabc9a028c2fb7459c22262c69597b0e872091bde5",
